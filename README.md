@@ -23,7 +23,7 @@ Overall, a QA model using Gemini LLM represents a sophisticated approach to ques
 
 ## Dependencies and Installation
 ----------------------------
-To install the MultiPDF Chat App, please follow these steps:
+To install the text to SQL App, please follow these steps:
 
 1. Clone the repository to your local machine.
 
@@ -43,14 +43,18 @@ To use the MultiPDF Chat App, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the Gemini API key to the `.env` file.
 
-2. Run the 
+2. Run the
+   ```
+   python run sqlite.py
+   ```
+
    ```
    streamlit run sql.py
    ```
 
-3. The application will launch in your default web browser, displaying the user interface.
+4. The application will launch in your default web browser, displaying the user interface.
 
-4. Load multiple PDF documents into the app by following the provided instructions.
+5. Load multiple PDF documents into the app by following the provided instructions.
 
-5. Ask questions in natural language about the loaded PDFs using the chat interface.
+6. Ask questions in natural language about the loaded PDFs using the chat interface.
 
